@@ -1,0 +1,33 @@
+p[title]{
+    font-weight: bold;
+}
+p[title="flower"]{
+    background-color: cadetblue;
+    text-shadow: 3px 4px 4px yellow;
+}
+p[title*="flower"]{
+    border:2px solid red;
+}
+p[title~="flower"]{
+    color:green;
+}
+p[title="|=flower"] {
+    text-shadow: 4px 4px 4px black;
+}
+p[title^="flower"]{
+    padding: 10px;
+}
+p[title$="flower"]{
+    max-width: 300px;
+}
+p[title^="beautyfull"][title$="flower"]{
+    text-decoration: underline;
+}
+p[title="xyz"]{
+    padding:17px ;
+    border: dotted  blue 2px ;
+    background-color: burlywood;
+    text-shadow: 2px 3px 4px;
+    text-decoration: underline;
+
+}

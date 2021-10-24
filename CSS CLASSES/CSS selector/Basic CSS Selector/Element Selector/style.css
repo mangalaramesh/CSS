@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+}
+p{
+    font-weight: bold;
+    color:black;
+}
+label{
+    color: purple;
+}
+form{
+    background-color:yellowgreen;
+}
+input{
+    margin:10px;
+    border:darkblue solid 2px;
+    font-weight:bold;
+    color:yellow;
+}

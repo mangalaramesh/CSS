@@ -1,0 +1,14 @@
+.space{
+    color: red;
+    background-color: yellow;
+}
+p.xyz{
+    font-weight: bold;
+    color:royalblue;
+    background-color: yellowgreen;
+    border:2px solid black;
+}
+p.abc{
+    color: black;
+    text-shadow: 3px 4px 4px purple;
+}
